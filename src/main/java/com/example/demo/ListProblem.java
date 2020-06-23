@@ -96,7 +96,7 @@ public class ListProblem {
 
         } else {
 
-            System.out.println("provide elements of linked list");
+            System.out.println("provide elements of linked list as program arguments");
 
         }
 
