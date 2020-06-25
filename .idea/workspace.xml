@@ -53,20 +53,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.ListProblemInPlaceTest">
-    <configuration name="ListProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.ListProblem" />
-      <module name="sapient-list-solution" />
-      <option name="PROGRAM_PARAMETERS" value="2 18 24 3 5 7 9 6 12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ListProblemInPlace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.demo.ListProblemInPlace" />
       <module name="sapient-list-solution" />
@@ -128,20 +114,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ListProblemInPlaceTest.testAssertThatEqual5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sapient-list-solution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.ListProblemInPlaceTest" />
+      <option name="METHOD_NAME" value="testAssertThatEqual5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.ListProblem" />
       <item itemvalue="Application.ListProblemInPlace" />
       <item itemvalue="JUnit.ListProblemInPlaceTest" />
       <item itemvalue="JUnit.ListProblemInPlaceTest.testAssertThatEqual2" />
       <item itemvalue="JUnit.ListProblemInPlaceTest.testAssertThatEqual1" />
+      <item itemvalue="JUnit.ListProblemInPlaceTest.testAssertThatEqual5" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ListProblemInPlaceTest" />
+        <item itemvalue="JUnit.ListProblemInPlaceTest.testAssertThatEqual5" />
         <item itemvalue="JUnit.ListProblemInPlaceTest.testAssertThatEqual1" />
         <item itemvalue="JUnit.ListProblemInPlaceTest.testAssertThatEqual2" />
         <item itemvalue="Application.ListProblemInPlace" />
-        <item itemvalue="Application.ListProblem" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593087688229</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="chandresh">
+      <created>1593087949662</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1593087949662</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -209,34 +218,34 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="205" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1593069796349" />
-    <state x="351" y="55" key="CommitChangelistDialog2" timestamp="1593087687887">
+    <state x="351" y="55" key="CommitChangelistDialog2" timestamp="1593087949484">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="351" y="55" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1593087687887" />
+    <state x="351" y="55" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1593087949484" />
     <state x="559" y="355" key="Github.ShareDialog" timestamp="1592930622429">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="559" y="355" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1592930622429" />
-    <state width="1440" height="252" key="GridCell.Tab.0.bottom" timestamp="1593087921742">
+    <state width="1440" height="252" key="GridCell.Tab.0.bottom" timestamp="1593088438398">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="252" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593087921742" />
-    <state width="1440" height="252" key="GridCell.Tab.0.center" timestamp="1593087921740">
+    <state width="1440" height="252" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593088438398" />
+    <state width="1440" height="252" key="GridCell.Tab.0.center" timestamp="1593088438396">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="252" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1593087921740" />
-    <state width="1440" height="252" key="GridCell.Tab.0.left" timestamp="1593087921739">
+    <state width="1440" height="252" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1593088438396" />
+    <state width="1440" height="252" key="GridCell.Tab.0.left" timestamp="1593088438395">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="252" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1593087921739" />
-    <state width="1440" height="252" key="GridCell.Tab.0.right" timestamp="1593087921741">
+    <state width="1440" height="252" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1593088438395" />
+    <state width="1440" height="252" key="GridCell.Tab.0.right" timestamp="1593088438397">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="252" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1593087921741" />
-    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1593087690692">
+    <state width="1440" height="252" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1593088438397" />
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1593087951526">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1593087690692" />
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1593087951526" />
     <state x="515" y="236" key="chooseDestDirectoryDialog" timestamp="1592922910995">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

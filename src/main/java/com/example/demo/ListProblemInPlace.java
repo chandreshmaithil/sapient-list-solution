@@ -37,27 +37,27 @@ public class ListProblemInPlace {
 
     private void printOriginalLinkedListWithContiguousEvenNumbersReversed(LinkedList linkedList) {
 
-        LinkedList finalLinkedList = new LinkedList();
+        LinkedList evenNumberSubList = new LinkedList();
 
         LinkedList.Node currentNode = linkedList.head;
 
         while (Objects.nonNull(currentNode)) {
 
             if (currentNode.data % 2 == 0) {
-                finalLinkedList.insert(currentNode.data);
+                evenNumberSubList.insert(currentNode.data);
             }
             else {
-                if(finalLinkedList.head != null) {
-                    finalLinkedList.reverse();
-                    finalLinkedList.printList();
-                    finalLinkedList.head = null;
+                if(evenNumberSubList.head != null) {
+                    evenNumberSubList.reverse();
+                    evenNumberSubList.printList();
+                    evenNumberSubList.head = null;
                 }
                 System.out.print(currentNode.data  + " ");
             }
             currentNode = currentNode.next;
         }
-        finalLinkedList.reverse();
-        finalLinkedList.printList();
+        evenNumberSubList.reverse();
+        evenNumberSubList.printList();
     }
 
 
