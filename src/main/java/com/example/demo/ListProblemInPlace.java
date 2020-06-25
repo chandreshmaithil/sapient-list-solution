@@ -56,6 +56,7 @@ public class ListProblemInPlace {
             }
             currentNode = currentNode.next;
         }
+        finalLinkedList.reverse();
         finalLinkedList.printList();
     }
 

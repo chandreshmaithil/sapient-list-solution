@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e91b58e8-b202-436e-83e7-a626d711779b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/ListProblemInPlaceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/ListProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/ListProblemInPlace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/ListProblemInPlace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/ListProblemInPlace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/ListProblemInPlaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/ListProblemInPlaceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,14 +96,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ListProblemInPlaceTest.testAssertThatEqual1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sapient-list-solution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.ListProblemInPlaceTest" />
+      <option name="METHOD_NAME" value="testAssertThatEqual1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListProblemInPlaceTest.testAssertThatEqual2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sapient-list-solution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.ListProblemInPlaceTest" />
+      <option name="METHOD_NAME" value="testAssertThatEqual2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ListProblem" />
       <item itemvalue="Application.ListProblemInPlace" />
       <item itemvalue="JUnit.ListProblemInPlaceTest" />
+      <item itemvalue="JUnit.ListProblemInPlaceTest.testAssertThatEqual2" />
+      <item itemvalue="JUnit.ListProblemInPlaceTest.testAssertThatEqual1" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ListProblemInPlaceTest" />
+        <item itemvalue="JUnit.ListProblemInPlaceTest.testAssertThatEqual1" />
+        <item itemvalue="JUnit.ListProblemInPlaceTest.testAssertThatEqual2" />
         <item itemvalue="Application.ListProblemInPlace" />
         <item itemvalue="Application.ListProblem" />
       </list>
@@ -149,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592930580348</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="chandresh">
+      <created>1593087688229</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593087688229</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -169,34 +209,34 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="205" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1593069796349" />
-    <state x="351" y="55" key="CommitChangelistDialog2" timestamp="1592930579987">
+    <state x="351" y="55" key="CommitChangelistDialog2" timestamp="1593087687887">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="351" y="55" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592930579987" />
+    <state x="351" y="55" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1593087687887" />
     <state x="559" y="355" key="Github.ShareDialog" timestamp="1592930622429">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="559" y="355" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1592930622429" />
-    <state width="1440" height="252" key="GridCell.Tab.0.bottom" timestamp="1593087672827">
+    <state width="1440" height="252" key="GridCell.Tab.0.bottom" timestamp="1593087921742">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="252" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593087672827" />
-    <state width="1440" height="252" key="GridCell.Tab.0.center" timestamp="1593087672825">
+    <state width="1440" height="252" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593087921742" />
+    <state width="1440" height="252" key="GridCell.Tab.0.center" timestamp="1593087921740">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="252" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1593087672825" />
-    <state width="1440" height="252" key="GridCell.Tab.0.left" timestamp="1593087672822">
+    <state width="1440" height="252" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1593087921740" />
+    <state width="1440" height="252" key="GridCell.Tab.0.left" timestamp="1593087921739">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="252" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1593087672822" />
-    <state width="1440" height="252" key="GridCell.Tab.0.right" timestamp="1593087672826">
+    <state width="1440" height="252" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1593087921739" />
+    <state width="1440" height="252" key="GridCell.Tab.0.right" timestamp="1593087921741">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="252" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1593087672826" />
-    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1592930582839">
+    <state width="1440" height="252" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1593087921741" />
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1593087690692">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1592930582839" />
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1593087690692" />
     <state x="515" y="236" key="chooseDestDirectoryDialog" timestamp="1592922910995">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
