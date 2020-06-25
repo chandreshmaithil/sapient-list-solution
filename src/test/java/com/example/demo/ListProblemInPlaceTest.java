@@ -18,44 +18,50 @@ public class ListProblemInPlaceTest {
     }
 
     @Test
-    public void testAssertThatEqual1() {
+    public void testAssertThatEqualE() {
         String [] input = {"2","18", "24"};
         listProblemInPlace.processLinkedList(input);
     }
 
     @Test
-    public void testAssertThatEqual2() {
+    public void testAssertThatEqualO() {
         String [] input = {"3" ,"5" ,"7"};
         listProblemInPlace.processLinkedList(input);
     }
 
     @Test
-    public void testAssertThatEqual3() {
+    public void testAssertThatEqualEO() {
         String [] input = {"2","18", "24" ,"3" ,"5" ,"7"};
         listProblemInPlace.processLinkedList(input);
     }
 
     @Test
-    public void testAssertThatEqual4() {
+    public void testAssertThatEqualOE() {
         String [] input = {"3" ,"5" ,"7", "9" ,"6" ,"12"};
         listProblemInPlace.processLinkedList(input);
     }
 
     @Test
-    public void testAssertThatEqual44() {
+    public void testAssertThatEqualOEO() {
         String [] input = {"3" ,"5" ,"7", "9" ,"6" ,"12","3" ,"5" ,"7"};
         listProblemInPlace.processLinkedList(input);
     }
 
     @Test
-    public void testAssertThatEqual5() {
+    public void testAssertThatEqual5OEOE() {
         String [] input = {"3" ,"5" ,"7", "9" ,"6" ,"12","3" ,"5" ,"7","6" ,"12"};
         listProblemInPlace.processLinkedList(input);
     }
 
     @Test
-    public void testAssertThatEqual6() {
+    public void testAssertThatEqual6EOE() {
         String [] input = {"2","18", "24" ,"3" ,"5" ,"7", "9" ,"6" ,"12"};
+        listProblemInPlace.processLinkedList(input);
+    }
+
+    @Test
+    public void testAssertThatEqual6EOEO() {
+        String [] input = {"2","18", "24" ,"3" ,"5" ,"7", "9" ,"6" ,"12","3" ,"5" ,"9"};
         listProblemInPlace.processLinkedList(input);
     }
 
